@@ -14,13 +14,16 @@
   width: 50%;
   border: none;
   padding: 10px;
+  border-radius: 10px 0px 0px 10px;;
 }
 
 .search-button {
-  background: #84fab0;
+  background: #330867;
   border: none;
   padding: 10px 20px;
   color: white;
+  font-weight: bold;
+  border-radius: 0px 10px 10px 0px;
 }
 
 .recipes {
@@ -31,3 +34,8 @@
   flex-wrap: wrap;
   
 }
+
+p {
+  text-align: center;
+}
+

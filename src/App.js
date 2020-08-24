@@ -35,12 +35,12 @@ const getSearch = e => {
   setQuery(search);
   setSearch('');
 }
-  /*link to the recipe source page and clean up calorie count */
+  /*grey out recipe when hover link to the recipe source page and clean up calorie count */
   return(
     <div className="App">
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch} />
-        <button className="search-button" type = "submit">Search</button>
+        <button className="search-button" type = "submit">SEARCH</button>
       </form>
       <div className="recipes">
       {recipes.map(recipe =>(
@@ -50,6 +50,7 @@ const getSearch = e => {
         calories={recipe.recipe.calories} 
         image={recipe.recipe.image}
         ingredients={recipe.recipe.ingredients}
+        source={recipe.recipe.source}
         />
       ))}
       </div>

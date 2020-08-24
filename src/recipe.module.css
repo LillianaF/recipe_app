@@ -9,10 +9,17 @@
     align-items: center;
     min-width: 40%;
     padding-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 
 .image {
     border-radius: 50%;
     width: 100px;
     height: 100px;
+}
+
+.source {
+    font-size: 12px;
+    margin-bottom: -10px;
 }
